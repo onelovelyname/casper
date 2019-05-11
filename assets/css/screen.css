@@ -93,9 +93,11 @@ body {
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
-    color: color(var(--darkgrey));
-    background: color(var(--white)) no-repeat center center;
     background-size: cover;
+}
+
+.site-header.outer.post {
+    background: #fff;
 }
 
 .site-header:before {
@@ -656,10 +658,11 @@ make sure this only happens on large viewports / desktop-ish devices.
 
 .post-full-header {
     margin: 0 auto;
-    padding: 6vw 3vw 3vw;
+    padding: 6vw 3vw 1vw;
     max-width: 1040px;
     text-align: center;
 }
+
 @media (max-width: 500px) {
     .post-full-header {
         padding: 14vw 3vw 10vw;
@@ -725,7 +728,7 @@ make sure this only happens on large viewports / desktop-ish devices.
     padding: 0px 100px 0;
     min-height: 230px;
     font-family: Georgia, serif;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     line-height: 1.6em;
     background: #fff;
 }
@@ -934,7 +937,7 @@ Usage (In Ghost editor):
 .post-full-content h5,
 .post-full-content h6 {
     color: color(var(--darkgrey) l(-5%));
-    font-family: 'Source Sans Pro', "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-family: 'Lato', "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .post-full-content h3 {
@@ -955,7 +958,7 @@ Usage (In Ghost editor):
 .post-full-content h2 {
     margin: 0.5em 0 0.2em 0;
     font-size: 3.6rem;
-    font-weight: 700;
+    font-weight: 600;
 }
 @media (max-width: 500px) {
     .post-full-content h2 {
@@ -964,10 +967,11 @@ Usage (In Ghost editor):
 }
 
 .post-full-content h3 {
-    margin: 0.5em 0 0.2em 0;
-    font-size: 2.8rem;
-    font-weight: 700;
+    margin: .25em 0 1em;
+    font-size: 2.6rem;
+    text-align: center;
 }
+
 @media (max-width: 500px) {
     .post-full-content h3 {
         font-size: 2.2rem;
@@ -1911,7 +1915,7 @@ Usage (In Ghost editor):
     margin: 0 0 20px 0;
     width: 100px;
     height: 100px;
-    box-shadow: rgba(255,255,255,0.1) 0 0 0 6px;
+    /* box-shadow: rgba(255,255,255,0.1) 0 0 0 6px; */
 }
 
 .site-header-content .author-bio {
