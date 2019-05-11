@@ -93,8 +93,8 @@ body {
     position: relative;
     padding-top: 12px;
     padding-bottom: 12px;
-    color: #fff;
-    background: color(var(--darkgrey) l(-5%)) no-repeat center center;
+    color: color(var(--darkgrey));
+    background: color(var(--white)) no-repeat center center;
     background-size: cover;
 }
 
@@ -107,7 +107,7 @@ body {
     left: 0;
     z-index: 10;
     display: block;
-    background: rgba(0,0,0,0.18);
+    /* background: rgba(0,0,0,0.18); */
 }
 
 .site-header:after {
@@ -120,7 +120,7 @@ body {
     z-index: 10;
     display: block;
     height: 80px;
-    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0));
+    /* background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0)); */
 }
 
 .site-header.no-image:before,
@@ -133,9 +133,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10vw 4vw;
-    min-height: 200px;
-    max-height: 450px;
+    padding: 0vw 4vw;
+    min-height: 150px;
+    max-height: 300px;
     text-align: center;
 }
 
@@ -247,7 +247,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     display: block;
     margin: 0;
     padding: 10px 12px;
-    color: #fff;
+    color: color(var(--darkgrey));
     opacity: 0.8;
 }
 
@@ -279,7 +279,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     align-items: center;
     margin: 0;
     padding: 10px;
-    color: #fff;
+    color: color(var(--darkgrey));
     opacity: 0.8;
 }
 
@@ -289,7 +289,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .social-link svg {
     height: 1.8rem;
-    fill: #fff;
+    fill: color(var(--darkgrey));
 }
 
 .social-link-fb svg {
@@ -335,7 +335,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 .rss-button svg {
     margin-bottom: 1px;
     height: 2.1rem;
-    fill: #fff;
+    fill: color(var(--darkgrey));
 }
 
 @media (max-width: 700px) {
