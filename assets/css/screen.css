@@ -566,15 +566,16 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
 
 .reading-time {
     flex-shrink: 0;
-    margin-right: 20px;
     color: var(--midgrey);
     font-size: 1.2rem;
     line-height: 33px;
     font-weight: 500;
     letter-spacing: 0.5px;
-    text-transform: uppercase;
 }
 
+.reading-time.upper {
+    text-transform: uppercase;
+}
 /* Special Styling for home page grid (below):
 
 The first post in the list is styled to be bigger than the others and take over
