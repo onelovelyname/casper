@@ -153,6 +153,10 @@ body {
     max-height: 45px;
 }
 
+.site-logo:hover {
+    text-decoration: none;
+}
+
 .site-description {
     z-index: 10;
     margin: 0;
