@@ -92,12 +92,12 @@ into the {body} of the default.hbs template --}}
             {{/if}}
 
             {{!-- If there's a next post, display it using the same markup included from - partials/post-card.hbs --}}
-            {{#next_post}}
+            {{#next_post in="primary_tag"}}
                 {{> "post-card"}}
             {{/next_post}}
 
             {{!-- If there's a previous post, display it using the same markup included from - partials/post-card.hbs --}}
-            {{#prev_post}}
+            {{#prev_post in="primary_tag"}}
                 {{> "post-card"}}
             {{/prev_post}}
 
