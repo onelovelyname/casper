@@ -50,6 +50,18 @@ body {
     text-indent: -9999px;
 }
 
+p.new-section::first-letter {
+    float: left;
+    height: 42px;
+    margin-top: 12px;
+    margin-right: 8px;
+    color: black;
+    font-size: 62px;
+    line-height: 42px;
+    font-style: normal;
+    font-weight: 400;
+}
+
 
 /* 2. Layout - Page building blocks
 /* ---------------------------------------------------------- */
