@@ -89,13 +89,13 @@ p.new-section::first-letter {
 /* Centered content container blocks */
 .inner {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1040px;
     width: 100%;
 }
 
-/*.main {*/
-/*    max-width: 1200px;*/
-/*}*/
+.main {
+    max-width: 1200px;
+}
 
 /* Usage:
 
@@ -1839,7 +1839,6 @@ Usage (In Ghost editor):
     flex-direction: column;
     align-items: center;
     max-width: 920px;
-    margin: 0 80px;
 }
 
 .post-template .post-content > p:first-child {
