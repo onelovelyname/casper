@@ -293,9 +293,9 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     height: 40px;
 }
 
-.site-nav-left, .site-nav-right {
-    flex: 2;
-}
+/*.site-nav-left, .site-nav-right {*/
+/*    flex: 2;*/
+/*}*/
 
 .social-links {
     flex-shrink: 0;
