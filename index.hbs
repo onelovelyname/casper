@@ -3,14 +3,14 @@
 into the {body} of the default.hbs template --}}
 
 {{> header background=@site.cover_image}} {{!--Special header.hbs partial to generate the <header> tag--}}
-    <div class="inner main">
+    <div class="inner">
         {{> "site-nav"}}
     </div>
 </header>
 
 {{!-- The main content area --}}
 <main id="site-main" class="site-main outer">
-    <div class="inner main">
+    <div class="inner">
         {{> "post-feed"}}
     </div>
 </main>

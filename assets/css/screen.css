@@ -93,10 +93,6 @@ p.new-section::first-letter {
     width: 100%;
 }
 
-.main {
-    max-width: 1200px;
-}
-
 /* Usage:
 
 <div class="outer">
