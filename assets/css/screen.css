@@ -673,6 +673,17 @@ make sure this only happens on large viewports / desktop-ish devices.
     }
 }
 
+/* 6.5 Special styling for About page
+ */
+
+.side-2 {
+    float: left;
+    display: inline;
+}
+
+#image-2 {
+    margin: 0 1.5em 0 0;
+}
 
 
 /* 7. Single Post
